@@ -22,7 +22,7 @@
     "@nailiable/dynamic-loader": "1.0.6",
     "@types/connect": "3.4.38",
     "@unclijs/common": "workspace:*",
-    "@unclijs/server": "workspace:*",
+    "chalk": "5.3.0",
     "connect": "3.7.0",
     "importx": "0.3.1",
     "path-to-regexp": "6.2.2",

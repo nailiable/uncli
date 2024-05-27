@@ -2,7 +2,7 @@ import type { Integration } from '@unclijs/common'
 import { UncliConfigSchema } from '@unclijs/common'
 import { importx } from 'importx'
 import Chalk from 'chalk'
-import { loadConfig } from './config'
+import { loadConfig } from '../../server/src/config'
 
 let __dirname: string
 if (typeof globalThis.__dirname === 'undefined')
