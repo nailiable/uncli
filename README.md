@@ -3,6 +3,8 @@
   <p>Try to make a web page to managing all frontend project configurations.</p>
 </div>
 
+Try to make a simple command: just run `uncli` in the project root directory, and then you can manage all the configurations of the project through the web page.
+
 ## Features
 
 - [x] **Plugin System**
@@ -12,6 +14,7 @@
 ## Integration
 
 - [x] **package.json management**
+- [ ] **uncli.json management**
 - [ ] **.gitignore management**
 - [ ] **.npmignore management**
 - [ ] **.editorconfig management**
