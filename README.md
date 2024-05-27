@@ -1,3 +1,28 @@
-# Monorepo
+<div align="center">
+  <h1>uncli</h1>
+  <p>Try to make a web page to managing all frontend project configurations.</p>
+</div>
 
-Add a description of the project here.
+## Features
+
+- [x] **Plugin System**
+- [x] **Command Line Interface**
+- [x] **Web Interface**
+
+## Integration
+
+- [x] **package.json management**
+- [ ] **.gitignore management**
+- [ ] **.npmignore management**
+- [ ] **.editorconfig management**
+- [ ] **.eslintrc management**
+- [ ] **.prettierrc management**
+- [ ] **.stylelintrc management**
+- [ ] **.browserslistrc management**
+- [ ] **.babelrc management**
+- [ ] **tsconfig.json management**
+- [ ] **.env management**
+
+## Problem
+
+Now, although there are tools like `c12` that can easily read `xx.config.js` / `xx.config.ts` configuration, but there is no good tool to programmatically edit these configuration files. So currently, we can only do `json` / `yaml` configuration files, but these configuration files are not as flexible as `js` / `ts` configuration files.

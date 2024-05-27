@@ -49,8 +49,11 @@
     "yaml"
   ],
   "cSpell.words": [
+    "browserslistrc",
     "importx",
     "linkcode",
+    "npmignore",
+    "stylelintrc",
     "uncli",
     "unclijs"
   ]
