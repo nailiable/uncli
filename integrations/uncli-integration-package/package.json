@@ -1,0 +1,13 @@
+{
+  "name": "uncli-integration-package",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsup",
+    "dev": "chokidar './src/**/*' 'package.json' 'tsup.config.ts' 'tsconfig.json' -c 'tsup'"
+  },
+  "dependencies": {
+    "uncli": "workspace:*",
+    "vite-plugin-uncli": "workspace:*"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@unclijs/common",
+  "type": "module",
+  "description": "Common utilities for uncli",
+  "exports": {
+    ".": {
+      "types": {
+        "import": "./dist/index.d.ts",
+        "require": "./dist/index.d.cts"
+      },
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@naiable/utils": "0.0.6",
+    "vite": "5.2.11",
+    "vite-plugin-vue-configurable-router": "0.0.9",
+    "zod": "3.23.8",
+    "zod-to-json-schema": "3.23.0"
+  }
+}

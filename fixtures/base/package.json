@@ -1,0 +1,11 @@
+{
+  "name": "base",
+  "private": true,
+  "scripts": {
+    "configure": "uncli"
+  },
+  "dependencies": {
+    "uncli": "workspace:*",
+    "uncli-integration-package": "workspace:*"
+  }
+}

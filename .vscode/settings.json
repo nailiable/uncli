@@ -6,6 +6,12 @@
   "prettier.enable": false,
   "editor.formatOnSave": false,
 
+  "material-icon-theme.activeIconPack": "vue_vuex",
+  "material-icon-theme.folders.associations": {
+    "uncli": "command",
+    "vite-plugin-uncli": "plugin"
+  },
+
   // Auto fix
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
@@ -30,5 +36,22 @@
   // It's better to put under project setting `.vscode/settings.json`
   // to avoid conflicts with working with different eslint configs
   // that does not support all formats.
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "yaml"]
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml"
+  ],
+  "cSpell.words": [
+    "importx",
+    "linkcode",
+    "uncli",
+    "unclijs"
+  ]
 }

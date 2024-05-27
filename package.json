@@ -2,6 +2,13 @@
   "packageManager": "pnpm@8.8.0",
   "author": "Zero <gczgroup@qq.com>",
   "scripts": {
+    "dev": "pnpm -F base configure",
+    "build": "pnpm -F uncli build",
+    "build:common": "pnpm -F @unclijs/common build",
+    "build:server": "pnpm -F @unclijs/server build",
+    "build:plugin": "pnpm -F vite-plugin-uncli build",
+    "build:package": "pnpm -F uncli-integration-package build",
+    "dev:package": "pnpm -F uncli-integration-package dev",
     "lint": "eslint . --fix",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
@@ -14,16 +21,19 @@
     "@commitlint/types": "^17.8.1",
     "@types/node": "^20.11.30",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "chokidar": "^3.6.0",
+    "chokidar-cli": "^3.0.0",
     "eslint": "^8.57.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.2",
+    "tsup": "8.0.2",
     "typescript": "^5.4.2",
+    "uncli-integration-package": "workspace:*",
     "vitest": "^1.4.0"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,vue,json,scss,less,html}": [
-      "eslint --fix",
-      "prettier --write"
+      "eslint . --fix"
     ]
   }
 }
