@@ -9,6 +9,7 @@
     "build:plugin": "pnpm -F vite-plugin-uncli build",
     "build:package": "pnpm -F uncli-integration-package build",
     "dev:package": "pnpm -F uncli-integration-package dev",
+    "ci": "tsx scripts/ci.ts",
     "lint": "eslint . --fix",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
@@ -27,6 +28,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^15.2.2",
     "tsup": "8.0.2",
+    "tsx": "^4.11.0",
     "typescript": "^5.4.2",
     "uncli-integration-package": "workspace:*",
     "vitest": "^1.4.0"
